@@ -35,3 +35,17 @@ entries:
         anilist-id: 130592
       - season: 3
         anilist-id: 155168
+
+  - title: "SPY x FAMILY"
+    synonyms:
+      - "SPY×FAMILY"
+      - "SPY x FAMILY"
+      - "Spy X Family"
+    seasons:
+    - season: 1
+      anilist-id: 140960
+    - season: 1
+      anilist-id: 142838
+      start: 13
+    - season: 2
+      anilist-id: 158927
