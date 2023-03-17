@@ -1,7 +1,6 @@
 # PlexAniSync: Series Mappings in English
 
 entries:
-
   - title: "Love, Chunibyo & Other Delusions!"
     synonyms:
       - "Love, Chunibyo & Other Delusions"
@@ -42,10 +41,10 @@ entries:
       - "SPY x FAMILY"
       - "Spy X Family"
     seasons:
-    - season: 1
-      anilist-id: 140960
-    - season: 1
-      anilist-id: 142838
-      start: 13
-    - season: 2
-      anilist-id: 158927
+      - season: 1
+        anilist-id: 140960
+      - season: 1
+        anilist-id: 142838
+        start: 13
+      - season: 2
+        anilist-id: 158927
