@@ -1,5 +1,5 @@
 # PlexAniSync-Mappings
-This is a collection of [custom-mappings](https://github.com/RickDB/PlexAniSync#custom-anime-mapping "custom-mappings") for the [PlexAniSync](https://github.com/RickDB/PlexAniSync "PlexAniSync") plex addon.
+This is a collection of [custom-mappings](https://github.com/RickDB/PlexAniSync#custom-anime-mapping "custom-mappings") for the [PlexAniSync](https://github.com/RickDB/PlexAniSync "PlexAniSync") plex addon (this will slowly fill out as I start watching more anime, it is advised to use either RickDB or Mizz141 mappings for now).
 
 
 - Plex Season and Anilist Entries are respective to each other.

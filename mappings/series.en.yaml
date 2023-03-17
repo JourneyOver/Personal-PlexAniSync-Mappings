@@ -1,3 +1,37 @@
 # PlexAniSync: Series Mappings in English
 
 entries:
+
+  - title: "Love, Chunibyo & Other Delusions!"
+    synonyms:
+      - "Love, Chunibyo & Other Delusions"
+      - "Love, Chunibyo, and Other Delusions!"
+      - "Chuunibyou demo Koi ga Shitai!"
+      - "Chuunibyou Demo Koi ga Shitai!"
+    seasons:
+      - season: 1
+        anilist-id: 14741
+      - season: 2
+        anilist-id: 18671
+
+  - title: "Miss Kobayashi's Dragon Maid"
+    synonyms:
+      - "Kobayashi-san Chi no Maidragon"
+      - "Kobayashi-san Chi no Maid Dragon"
+      - "Kobayashi's Dragon Maid"
+    seasons:
+      - season: 1
+        anilist-id: 21776
+      - season: 2
+        anilist-id: 107717
+
+  - title: "The Devil is a Part-Timer!"
+    synonyms:
+      - "Hataraku Maou-sama!"
+    seasons:
+      - season: 1
+        anilist-id: 15809
+      - season: 2
+        anilist-id: 130592
+      - season: 3
+        anilist-id: 155168
