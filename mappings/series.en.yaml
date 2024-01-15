@@ -1,6 +1,16 @@
 # PlexAniSync: Series Mappings in English
 
 entries:
+  - title: "Kuma Kuma Kuma Bear"
+    synonyms:
+      - "くまクマ熊ベアー"
+      - "くま クマ 熊 ベアー"
+    seasons:
+      - season: 1
+        anilist-id: 114340
+      - season: 2
+        anilist-id: 127550
+
   - title: "Love, Chunibyo & Other Delusions!"
     synonyms:
       - "Love, Chunibyo & Other Delusions"
@@ -32,8 +42,9 @@ entries:
         anilist-id: 15809
       - season: 2
         anilist-id: 130592
-      - season: 3
+      - season: 2
         anilist-id: 155168
+        start: 13
 
   - title: "SPY x FAMILY"
     synonyms:
