@@ -1,29 +1,69 @@
 name: CI
+
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
     paths-ignore:
       - 'README.md'
       - 'LICENSE'
   pull_request:
-    branches: [ main ]
+    branches: [main]
     paths-ignore:
       - '.**'
       - 'README.md'
       - 'LICENSE'
+
+env:
+  PYTHON_VERSION: "3.10"
+
 jobs:
   validate-mappings:
     runs-on: ubuntu-latest
+
     steps:
-    - uses: actions/checkout@main
-    - name: Set up Python 3.10
+    - name: Checkout code
+      uses: actions/checkout@main
+
+    - name: Set up Python
       uses: actions/setup-python@main
       with:
-        python-version: "3.10"
+        python-version: ${{ env.PYTHON_VERSION }}
+
     - name: Download schema
       run: wget -O custom_mappings_schema.json https://raw.githubusercontent.com/RickDB/PlexAniSync/master/custom_mappings_schema.json
-    - name: Validate mappings
+
+    - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        python validate.py
+
+    - name: Validate mappings
+      run: python validate.py
+
+  sort-mappings:
+    runs-on: ubuntu-latest
+
+    if: github.event_name == 'push'
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@main
+
+    - name: Set up Python
+      uses: actions/setup-python@main
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Sort entries
+      run: python sort.py
+
+    - name: Commit changes from sorting
+      uses: stefanzweifel/git-auto-commit-action@master
+      with:
+        commit_message: Sort entries
