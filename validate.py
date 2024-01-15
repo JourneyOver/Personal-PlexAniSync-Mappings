@@ -2,28 +2,42 @@ import glob
 import json
 import logging
 import sys
-from jsonschema import validate
-from jsonschema.exceptions import ValidationError
+from jsonschema import validate, ValidationError
 from ruamel.yaml import YAML
 
-logger = logging.getLogger("PlexAniSync")
-yaml = YAML(typ='safe')
-SUCCESS = True
+def setup_logger():
+    logger = logging.getLogger("PlexAniSync")
+    return logger
 
-with open('./custom_mappings_schema.json', 'r', encoding='utf-8') as f:
-    schema = json.load(f)
+def load_schema(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
-for file in glob.glob("mappings/*.yaml"):
-    # Create a Data object
-    with open(file, 'r', encoding='utf-8') as f:
-        file_mappings = yaml.load(f)
+def load_mappings(file_path):
+    with open(file_path, 'r', encoding='utf-8') as f:
+        yaml = YAML(typ='safe')
+        return yaml.load(f)
+
+def validate_mappings(file_mappings, schema, logger):
     try:
-        # Validate data against the schema.
         validate(file_mappings, schema)
     except ValidationError as e:
-        logger.error(f"Custom Mappings validation failed for {file}!")
-        logger.error(f"{e.message} at entry {e.instance}")
-        SUCCESS = False
+        logger.error(f"Custom Mappings validation failed!")
+        logger.error(f"File: {file_mappings}, {e.message} at entry {e.instance}")
+        return False
+    return True
 
-if not SUCCESS:
-    sys.exit(1)
+def main():
+    logger = setup_logger()
+    schema = load_schema('./custom_mappings_schema.json')
+
+    success = True
+    for file in glob.glob("mappings/*.yaml"):
+        file_mappings = load_mappings(file)
+        success = validate_mappings(file_mappings, schema, logger) and success
+
+    if not success:
+        sys.exit(1)
+
+if __name__ == "__main__":
+    main()
