@@ -34,18 +34,6 @@ entries:
       - season: 2
         anilist-id: 107717
 
-  - title: "The Devil is a Part-Timer!"
-    synonyms:
-      - "Hataraku Maou-sama!"
-    seasons:
-      - season: 1
-        anilist-id: 15809
-      - season: 2
-        anilist-id: 130592
-      - season: 2
-        anilist-id: 155168
-        start: 13
-
   - title: "SPY x FAMILY"
     synonyms:
       - "SPY×FAMILY"
@@ -59,3 +47,15 @@ entries:
         start: 13
       - season: 2
         anilist-id: 158927
+  - title: "The Devil is a Part-Timer!"
+    synonyms:
+      - "Hataraku Maou-sama!"
+    seasons:
+      - season: 1
+        anilist-id: 15809
+      - season: 2
+        anilist-id: 130592
+      - season: 2
+        anilist-id: 155168
+        start: 13
+
