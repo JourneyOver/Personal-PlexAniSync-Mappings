@@ -1,6 +1,21 @@
 # PlexAniSync: Series Mappings in English
 
 entries:
+  - title: "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense."
+    synonyms:
+      - "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu."
+      - "痛いのは嫌なので防御力に極振りしたいと思います"
+      - "痛いのは嫌なので防御力に極振りしたいと思います。"
+      - "I Hate Being in Pain, So I Think I'll Make a Full Defense Build"
+      - "I Hate Getting Hurt, So I Put All My Skill Points Into Defense"
+      - "I do not want pain, so I would like to focus on Defense"
+      - "Bofuri"
+    seasons:
+      - season: 1
+        anilist-id: 106479
+      - season: 2
+        anilist-id: 116867
+
   - title: "Kuma Kuma Kuma Bear"
     synonyms:
       - "くまクマ熊ベアー"
