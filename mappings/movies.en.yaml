@@ -1,0 +1,75 @@
+# PlexAniSync: Movie Mappings in English
+
+entries:
+  - title: "5 Centimeters per Second"
+    # imdb: https://www.imdb.com/title/tt0983213/
+    # tmdb: https://www.themoviedb.org/movie/38142
+    guid: plex://movie/5d77686c103a2d001f571373
+    seasons:
+      - season: 1
+        anilist-id: 1689
+        start: -1
+
+  - title: "Children Who Chase Lost Voices"
+    # imdb: https://www.imdb.com/title/tt1839494/
+    # tmdb: https://www.themoviedb.org/movie/79707
+    guid: plex://movie/5d7768c09ab54400214eb193
+    seasons:
+      - season: 1
+        anilist-id: 9760
+
+  - title: "The Garden of Words"
+    # imdb: https://www.imdb.com/title/tt2591814/
+    # tmdb: https://www.themoviedb.org/movie/198375
+    guid: plex://movie/5d776a2596b655001fde4985
+    seasons:
+      - season: 1
+        anilist-id: 16782
+
+  - title: "Ghost in the Shell"
+    # imdb: https://www.imdb.com/title/tt0113568/
+    # tmdb: https://www.themoviedb.org/movie/9323
+    guid: plex://movie/5d7768334de0ee001fccaf95
+    seasons:
+      - season: 1
+        anilist-id: 43
+
+  - title: "The Place Promised in Our Early Days"
+    # imdb: https://www.imdb.com/title/tt0381348/
+    # tmdb: https://www.themoviedb.org/movie/12924
+    guid: plex://movie/5d776839999c64001ec301f4
+    seasons:
+      - season: 1
+        anilist-id: 433
+
+  - title: "SPY x FAMILY CODE: White"
+    # imdb: https://www.imdb.com/title/tt26684398/
+    # tmdb: https://www.themoviedb.org/movie/1062807
+    guid: plex://movie/63e93a1f2b9825eba053d67b
+    seasons:
+      - season: 1
+        anilist-id: 158928
+
+  - title: "Suzume"
+    # imdb: https://www.imdb.com/title/tt16428256/
+    # tmdb: https://www.themoviedb.org/movie/916224
+    guid: plex://movie/61bd9c2b8810917dfdeafa9c
+    seasons:
+      - season: 1
+        anilist-id: 142770
+
+  - title: "Weathering with You"
+    # imdb: https://www.imdb.com/title/tt9426210/
+    # tmdb: https://www.themoviedb.org/movie/568160
+    guid: plex://movie/5d7770aa96b655001fe9bda2
+    seasons:
+      - season: 1
+        anilist-id: 106286
+
+  - title: "Your Name."
+    # imdb: https://www.imdb.com/title/tt5311514/
+    # tmdb: https://www.themoviedb.org/movie/372058
+    guid: plex://movie/5d776bfffb0d55001f579a01
+    seasons:
+      - season: 1
+        anilist-id: 21519

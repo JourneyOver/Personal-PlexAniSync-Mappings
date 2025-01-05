@@ -1,12 +1,27 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "git-submodules": {
-    "enabled": true
-  },
   "automerge": true,
-  "automergeType": "pr",
   "automergeStrategy": "squash",
-  "timezone": "US/Central",
-  "groupName": "all",
-  "extends": ["config:base", ":rebaseStalePrs"]
+  "automergeType": "pr",
+  "configMigration": true,
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": false,
+  "dependencyDashboardLabels": [
+    "dependencies",
+    "tracker"
+  ],
+  "enabled": true,
+  "extends": [
+    ":rebaseStalePrs",
+    "config:recommended",
+    "group:allNonMajor",
+    "schedule:earlyMondays"
+  ],
+  "forkProcessing": "enabled",
+  "labels": [
+    "dependencies"
+  ],
+  "rangeStrategy": "bump",
+  "rebaseWhen": "conflicted",
+  "timezone": "US/Central"
 }

@@ -2,24 +2,62 @@
 
 entries:
   - title: "BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense."
-    synonyms:
-      - "Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu."
-      - "痛いのは嫌なので防御力に極振りしたいと思います"
-      - "痛いのは嫌なので防御力に極振りしたいと思います。"
-      - "I Hate Being in Pain, So I Think I'll Make a Full Defense Build"
-      - "I Hate Getting Hurt, So I Put All My Skill Points Into Defense"
-      - "I do not want pain, so I would like to focus on Defense"
-      - "Bofuri"
+    # imdb: https://www.imdb.com/title/tt11428630/
+    # tmdb: https://www.themoviedb.org/tv/96402
+    # tvdb: https://www.thetvdb.com/dereferrer/series/373679
+    guid: plex://show/5df5b93281e1a7001f946b48
     seasons:
       - season: 1
         anilist-id: 106479
       - season: 2
         anilist-id: 116867
 
+  - title: "Dan Da Dan"
+    # imdb: https://www.imdb.com/title/tt30217403/
+    # tmdb: https://www.themoviedb.org/tv/240411
+    # tvdb: https://www.thetvdb.com/dereferrer/series/432832
+    guid: plex://show/656559673cdc9021485a92f2
+    seasons:
+      - season: 1
+        anilist-id: 171018
+
+  - title: "Ghost in the Shell: Stand Alone Complex"
+    # imdb: https://www.imdb.com/title/tt0346314/
+    # tmdb: https://www.themoviedb.org/tv/1095
+    # tvdb: https://www.thetvdb.com/dereferrer/series/73749
+    guid: plex://show/5d9c086b705e7a001e6dbd86
+    seasons:
+      - season: 1
+        anilist-id: 467
+      - season: 2
+        anilist-id: 801
+
+  - title: "InuYasha"
+    # imdb: https://www.imdb.com/title/tt0290223/
+    # tmdb: https://www.themoviedb.org/tv/35610
+    # tvdb: https://www.thetvdb.com/dereferrer/series/71361
+    guid: plex://show/5d9c08294eefaa001f5d730b
+    seasons:
+      - season: 1
+        anilist-id: 249
+      - season: 2
+        anilist-id: 249
+      - season: 3
+        anilist-id: 249
+      - season: 4
+        anilist-id: 249
+      - season: 5
+        anilist-id: 249
+      - season: 6
+        anilist-id: 249
+      - season: 7
+        anilist-id: 6811
+
   - title: "Kuma Kuma Kuma Bear"
-    synonyms:
-      - "くまクマ熊ベアー"
-      - "くま クマ 熊 ベアー"
+    # imdb: https://www.imdb.com/title/tt12415504/
+    # tmdb: https://www.themoviedb.org/tv/97782
+    # tvdb: https://www.thetvdb.com/dereferrer/series/386572
+    guid: plex://show/5e269a8560871f0040871c97
     seasons:
       - season: 1
         anilist-id: 114340
@@ -27,11 +65,10 @@ entries:
         anilist-id: 127550
 
   - title: "Love, Chunibyo & Other Delusions!"
-    synonyms:
-      - "Love, Chunibyo & Other Delusions"
-      - "Love, Chunibyo, and Other Delusions!"
-      - "Chuunibyou demo Koi ga Shitai!"
-      - "Chuunibyou Demo Koi ga Shitai!"
+    # imdb: https://www.imdb.com/title/tt2321542/
+    # tmdb: https://www.themoviedb.org/tv/45501
+    # tvdb: https://www.thetvdb.com/dereferrer/series/261862
+    guid: plex://show/5d9c084fba2e21001f18f7fd
     seasons:
       - season: 1
         anilist-id: 14741
@@ -39,10 +76,10 @@ entries:
         anilist-id: 18671
 
   - title: "Miss Kobayashi's Dragon Maid"
-    synonyms:
-      - "Kobayashi-san Chi no Maidragon"
-      - "Kobayashi-san Chi no Maid Dragon"
-      - "Kobayashi's Dragon Maid"
+    # imdb: https://www.imdb.com/title/tt6185782/
+    # tmdb: https://www.themoviedb.org/tv/69291
+    # tvdb: https://www.thetvdb.com/dereferrer/series/318893
+    guid: plex://show/5d9c08147b5c2e001e653903
     seasons:
       - season: 1
         anilist-id: 21776
@@ -50,10 +87,10 @@ entries:
         anilist-id: 107717
 
   - title: "SPY x FAMILY"
-    synonyms:
-      - "SPY×FAMILY"
-      - "SPY x FAMILY"
-      - "Spy X Family"
+    # imdb: https://www.imdb.com/title/tt13706018/
+    # tmdb: https://www.themoviedb.org/tv/120089
+    # tvdb: https://www.thetvdb.com/dereferrer/series/405920
+    guid: plex://show/617fcf9e0b976a839051dab2
     seasons:
       - season: 1
         anilist-id: 140960
@@ -64,8 +101,10 @@ entries:
         anilist-id: 158927
 
   - title: "The Devil is a Part-Timer!"
-    synonyms:
-      - "Hataraku Maou-sama!"
+    # imdb: https://www.imdb.com/title/tt2622982/
+    # tmdb: https://www.themoviedb.org/tv/45997
+    # tvdb: https://www.thetvdb.com/dereferrer/series/267441
+    guid: plex://show/5d9c082702391c001f5827b1
     seasons:
       - season: 1
         anilist-id: 15809
@@ -75,3 +114,14 @@ entries:
         anilist-id: 155168
         start: 13
 
+  - title: "Yashahime: Princess Half-Demon"
+    # imdb: https://www.imdb.com/title/tt12287748/
+    # tmdb: https://www.themoviedb.org/tv/103254
+    # tvdb: https://www.thetvdb.com/dereferrer/series/384485
+    guid: plex://show/5ec75f37fc16bb0041787f59
+    seasons:
+      - season: 1
+        anilist-id: 118399
+      - season: 1
+        anilist-id: 131264
+        start: 25
