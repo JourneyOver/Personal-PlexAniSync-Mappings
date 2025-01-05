@@ -18,14 +18,6 @@ entries:
       - season: 1
         anilist-id: 9760
 
-  - title: "The Garden of Words"
-    # imdb: https://www.imdb.com/title/tt2591814/
-    # tmdb: https://www.themoviedb.org/movie/198375
-    guid: plex://movie/5d776a2596b655001fde4985
-    seasons:
-      - season: 1
-        anilist-id: 16782
-
   - title: "Ghost in the Shell"
     # imdb: https://www.imdb.com/title/tt0113568/
     # tmdb: https://www.themoviedb.org/movie/9323
@@ -33,14 +25,6 @@ entries:
     seasons:
       - season: 1
         anilist-id: 43
-
-  - title: "The Place Promised in Our Early Days"
-    # imdb: https://www.imdb.com/title/tt0381348/
-    # tmdb: https://www.themoviedb.org/movie/12924
-    guid: plex://movie/5d776839999c64001ec301f4
-    seasons:
-      - season: 1
-        anilist-id: 433
 
   - title: "SPY x FAMILY CODE: White"
     # imdb: https://www.imdb.com/title/tt26684398/
@@ -57,6 +41,22 @@ entries:
     seasons:
       - season: 1
         anilist-id: 142770
+
+  - title: "The Garden of Words"
+    # imdb: https://www.imdb.com/title/tt2591814/
+    # tmdb: https://www.themoviedb.org/movie/198375
+    guid: plex://movie/5d776a2596b655001fde4985
+    seasons:
+      - season: 1
+        anilist-id: 16782
+
+  - title: "The Place Promised in Our Early Days"
+    # imdb: https://www.imdb.com/title/tt0381348/
+    # tmdb: https://www.themoviedb.org/movie/12924
+    guid: plex://movie/5d776839999c64001ec301f4
+    seasons:
+      - season: 1
+        anilist-id: 433
 
   - title: "Weathering with You"
     # imdb: https://www.imdb.com/title/tt9426210/
