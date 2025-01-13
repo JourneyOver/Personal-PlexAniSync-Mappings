@@ -86,6 +86,17 @@ entries:
       - season: 2
         anilist-id: 107717
 
+  - title: "Solo Leveling"
+    # imdb: https://www.imdb.com/title/tt21209876/
+    # tmdb: https://www.themoviedb.org/tv/127532
+    # tvdb: https://www.thetvdb.com/dereferrer/series/389597
+    guid: "plex://show/60c8f1eb65616d002c4c7951"
+    seasons:
+      - season: 1
+        anilist-id: 151807
+      - season: 2
+        anilist-id: 176496
+
   - title: "SPY x FAMILY"
     # imdb: https://www.imdb.com/title/tt13706018/
     # tmdb: https://www.themoviedb.org/tv/120089
